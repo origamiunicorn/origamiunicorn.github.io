@@ -1,0 +1,28 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    background-color: gray;
+}
+
+.container {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    padding: 50px;
+}
+
+.boo {
+    display: none;
+}
+
+span {
+
+}
+
+span:hover + .boo {
+    display: block;
+}
+
+#alien {
+    width: 500px;
+}
